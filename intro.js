@@ -1,0 +1,30 @@
+// Variables Types : (Number, boolean, string, null, symbol);
+
+// let a, b;
+// a = 10;
+// a = 10.1;
+// b = "Hello World";
+// a = ' My name is Khan';
+// console.log("variables contain", a, b);
+
+let num = 10;
+for(let i = 1; i<10; i++){
+    console.log("Number will be :", i);
+}
+
+//is prime :
+
+let number = 23;
+let flag = true;
+for (let div=2; div < number; div++){
+    if (number % div == 0){
+        flag = false;
+        break;
+    }
+}
+if (flag == true){
+    console.log (number, "is prime");
+} else {
+    console.log(number, "is not prime")
+}
+
