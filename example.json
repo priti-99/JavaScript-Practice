@@ -16,6 +16,14 @@
     "friends": ["palu", "sneha", "muskan"]
   },
   {
+    "name": "Linda",
+    "surname": "bisht",
+    "age": 24,
+    "isGirl": true,
+    "address": { "city": "nainital", "pincode": 263132 },
+    "friends": ["palu", "sneha", "muskan"]
+  },
+  {
     "name": "Deepali",
     "surname": "bisht",
     "age": 24,
