@@ -1,13 +1,13 @@
-// **This keyword in node with non Strict mode**
+// **This keyword in Browser with non Strict mode**
 
-// console.log(this)  //-> Returns an empty object
+console.log(this);   //-> Returns window object
+
 
 
 function showThis(){
     console.log(this)
 }
-showThis();  // Returns global object with function
-
+showThis();   //-> Returns window object
 
 
 let object ={
@@ -30,4 +30,4 @@ let object1 ={
         g();
     }
 }
-object1.f(); // Returns Global object (object-function-function)
+object1.f();  //-> Returns window object
